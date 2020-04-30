@@ -1,0 +1,36 @@
+beer_table
+-
+beer_id INT PK
+beer_name VARCHAR 
+brewery VARCHAR 
+beer_style VARCHAR 
+abv DECIMAL
+score INT 
+avg_score DECIMAL
+ratings INT 
+availability VARCHAR 
+brew_state VARCHAR 
+brew_city VARCHAR 
+lat DECIMAL
+lng DECIMAL
+
+
+reviews_table
+-
+review_id INT PK 
+beer_id INT FK >- beer_table.beer_id
+state VARCHAR 
+
+
+brewery_table
+-
+brewery_id INT PK
+name VARCHAR 
+brewery_type VARCHAR 
+street VARCHAR
+city VARCHAR 
+state VARCHAR 
+lat DECIMAL
+lng "DECIMAL(
+
+

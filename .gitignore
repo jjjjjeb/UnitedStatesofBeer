@@ -1,0 +1,9 @@
+venv/
+.idea/
+.idea/craft-beers.iml
+*.iml
+.idea/craft-beers.iml
+.idea/misc.xml
+*.ipynb
+.ipynb*
+beer_scraper.py
